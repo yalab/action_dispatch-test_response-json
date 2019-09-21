@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+class ArticlesControllerTest < ActionDispatch::IntegrationTest
+   test "should get index.json" do
+     get articles_url(format: :json)
+     assert_equal 'title', response.json[:articles][0][:title]
+  end
+end
+
+```
+
 
 ## Development
 

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     action_dispatch-test_response-json (5.2.3)
-      actionpack (>= 5.2.3)
+      actionpack (>= 5.0.0)
 
 GEM
   remote: https://rubygems.org/
