@@ -1,7 +1,7 @@
 module ActionDispatch
   module TestResponse
     module Json
-      VERSION = "0.1.0"
+      VERSION = "5.2.3"
     end
   end
 end

@@ -1,10 +1,7 @@
 require "action_dispatch/test_response/json/version"
 
-module ActionDispatch
-  module TestResponse
-    module Json
-      class Error < StandardError; end
-      # Your code goes here...
-    end
+ActionDispatch::Response.module_eval do
+  def json
+    @json ||= JSON.parse(body).with_indifferent_access
   end
 end
