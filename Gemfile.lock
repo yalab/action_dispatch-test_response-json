@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    action_dispatch-test_response-json (5.2.3.1)
-      actionpack (>= 6.0.0)
+    action_dispatch-test_response-json (6.1.0)
+      actionpack (~> 6.1.0)
 
 GEM
   remote: https://rubygems.org/
