@@ -3,6 +3,7 @@ PATH
   specs:
     action_dispatch-test_response-json (6.1.0)
       actionpack (~> 6.1.0)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
