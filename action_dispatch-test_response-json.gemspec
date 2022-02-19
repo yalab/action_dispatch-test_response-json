@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yalab"]
   spec.email         = ["rudeboyjet@gmail.com"]
 
-  spec.summary       = "You can use `response.json` yey."
-  spec.description   = "This gem provide response.json on your test."
+  spec.summary       = "You can use `response.json` or `response.html` yey."
+  spec.description   = "This gem provide response.json or response.html on your test."
   spec.homepage      = "https://github.com/yalab/action_dispatch-test_response-json"
   spec.license       = "MIT"
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
