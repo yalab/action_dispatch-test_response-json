@@ -20,4 +20,9 @@ class ActionDispatch::TestResponse::JsonTest < Minitest::Test
     assert_equal 'yalab', @response.json[0]['name']
     assert_equal 'yalab', @response.json[0][:name]
   end
+
+  def test_it_can_also_handle_nokogiri
+    @response.body = '<html><head></head><body><h1>Minaswan</h1><p>Hello</p></body></html>'
+    assert_equal 'Minaswan', @response.html.xpath('//h1').text
+  end
 end
