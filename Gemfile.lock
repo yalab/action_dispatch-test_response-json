@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    action_dispatch-test_response-json (6.2.0)
+    action_dispatch-test_response-json (6.2.1)
       actionpack (~> 6.1.0)
       nokogiri
 
