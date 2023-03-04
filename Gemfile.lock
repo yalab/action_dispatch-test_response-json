@@ -61,4 +61,4 @@ DEPENDENCIES
   action_dispatch-test_response-json!
 
 BUNDLED WITH
-   2.2.32
+   2.4.7
